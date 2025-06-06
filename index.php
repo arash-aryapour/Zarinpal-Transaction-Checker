@@ -8,14 +8,13 @@
  * @license MIT
  */
 
-// ==================== CONFIGURATION ====================
-$terminal_id = "1234"; // Your Zarinpal terminal ID
-$cookie = ""; // Your Zarinpal authentication cookie (set in lines 28 and 68)
-$baggage = "";
-$sentry = "";
-$useragent = "";
-$output_file = __DIR__ . '/data/truepay.json';
-
+// ==================== تنظیمات ====================
+$terminal_id = "TERMINAL_ID_SHOMA";      // شناسه ترمینال زرین‌پال شما
+$cookie = "COOKIE_AUTH_SHOMA";          // کوکی احراز هویت زرین‌پال
+$baggage = "";                         // مقدار اختیاری baggage
+$sentry = "";                          // مقدار اختیاری sentry trace
+$useragent = "Mozilla/5.0...";        // رشته user agent
+$output_file = __DIR__ . '/data/truepay.json';  // مسیر فایل خروجی
 // ==================== API FUNCTIONS ====================
 
 /**
